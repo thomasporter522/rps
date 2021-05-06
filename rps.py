@@ -62,5 +62,5 @@ def generate(n):
             new_results += [results[i]]
     return new_results
 
-for i in range(8,9):
+for i in range(1,7):
     print(i,"has", len(generate(i)), "games.\n")
